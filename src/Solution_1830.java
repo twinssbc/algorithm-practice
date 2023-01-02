@@ -22,6 +22,8 @@ class Solution_1830 {
             for (int j = 0; j < c - 'a'; j++) {
                 countBeforeC += charCount[j];
             }
+
+            // currentResult  = (allPossibilities * countBeforeC / total characters) % MOD
             long currentResult = modDiv((allPossibilities * countBeforeC) % MOD, s.length() - i, MOD);
             count = (count + currentResult) % MOD;
             charCount[c - 'a']--;
@@ -60,6 +62,9 @@ class Solution_1830 {
     }
 
     // (a/b) % n = (a * 1/b) % n = (a * b^-1) % n = (a % n * b^-1 % n) % n =  (a % n * (b^(n-2)) % n) % n
+    // Fermat's little theorem: b^(n-1) % n = 1 % n
+    // Thus, b^-1 % n = b^(n-2) % n
+    // https://en.wikipedia.org/wiki/Fermat%27s_little_theorem
     public long modDiv(long a, long b, int mod) {
         b = modPower(b, mod - 2, mod);
         return ((a % mod) * b) % mod;
