@@ -7,9 +7,8 @@ public class Solution_380 {
     class RandomizedSet {
         Map<Integer, Integer> elementIndexMap = new HashMap<>();
         List<Integer> elementList = new ArrayList<>();
-        int elementCount = 0;
-        public RandomizedSet() {
-
+            int elementCount = 0;
+            public RandomizedSet() {
         }
 
         public boolean insert(int val) {
