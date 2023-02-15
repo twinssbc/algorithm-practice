@@ -1,7 +1,8 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution_548 {
+// Number of Provinces
+public class Solution_547 {
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
         int[] provinces = new int[n];

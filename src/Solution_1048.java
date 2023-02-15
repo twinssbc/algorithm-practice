@@ -1,5 +1,6 @@
 import java.util.*;
 
+//Longest String Chain
 public class Solution_1048 {
     public int longestStrChain(String[] words) {
         TreeMap<Integer, List<String>> lengthStringMap = new TreeMap<>();

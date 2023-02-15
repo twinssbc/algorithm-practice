@@ -1,5 +1,6 @@
 import java.util.*;
 
+//Random Pick with Blacklist
 public class Solution_710 {
     private Map<Integer, Integer> remap = new HashMap<>();
     private Random random;

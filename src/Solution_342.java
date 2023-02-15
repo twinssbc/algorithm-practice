@@ -1,3 +1,4 @@
+// Power Of Four
 public class Solution_342 {
     public boolean isPowerOfFour(int n) {
         int countZero = 0;

@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//Insert Delete GetRandom O(1)
 public class Solution_380 {
     class RandomizedSet {
         Map<Integer, Integer> elementIndexMap = new HashMap<>();
