@@ -1,5 +1,6 @@
 import java.util.*;
 
+//Parallel Courses II
 public class Solution_1494 {
     int k;
     int n;
