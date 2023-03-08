@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.LinkedHashSet;
 
 // LFU Cache
+// Time: O(1), Space: O(N)
 class Solution_460 {
     // Key: key, Value: frequency-value
     private HashMap<Integer, int[]> keyFrequency;

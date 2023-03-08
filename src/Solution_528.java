@@ -1,6 +1,7 @@
 import java.util.Random;
 
 //Random Pick with Weight
+//Time: O(logN), Space: O(N)
 public class Solution_528 {
     int[] freq;
     private Random rand = new Random();

@@ -1,6 +1,7 @@
 import java.util.*;
 
 //Random Pick with Blacklist
+// Time: O(B), Space: O(B)
 public class Solution_710 {
     private Map<Integer, Integer> remap = new HashMap<>();
     private Random random;
