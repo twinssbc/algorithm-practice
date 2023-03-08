@@ -2,10 +2,10 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 // Median Finder
-public class Solution_296 {
+public class Solution_295 {
     private PriorityQueue<Integer> minHeap;
     private PriorityQueue<Integer> maxHeap;
-    public Solution_296() {
+    public Solution_295() {
         minHeap = new PriorityQueue<>();
         maxHeap = new PriorityQueue<>(Collections.reverseOrder());
     }
