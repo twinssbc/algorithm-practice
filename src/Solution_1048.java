@@ -1,6 +1,7 @@
 import java.util.*;
 
 //Longest String Chain
+// Time: O(N*(logN + L^2), Space: O(N)
 public class Solution_1048 {
     public int longestStrChain(String[] words) {
         TreeMap<Integer, List<String>> lengthStringMap = new TreeMap<>();

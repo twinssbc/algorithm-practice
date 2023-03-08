@@ -1,3 +1,4 @@
+// Time: O(N), Space: O(1)
 public class Parenthesis {
     public int process(String input) {
         int balance = 0;

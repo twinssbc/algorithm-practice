@@ -3,6 +3,7 @@ public class Solution_69 {
     // xn+1 = xn - f(xn)/f'(xn)
     // f(xn) = xn^2 - x
     // xn + 1 = 0.5 * (xn + x/xn)
+    // time complexity, O(logN), space, O(1)
     public int mySqrt(int x) {
         if(x < 1) return x;
         double x0 = x;

@@ -3,6 +3,8 @@ import java.util.HashMap;
 import java.util.List;
 
 // Word Search II, Trie
+// Time: O(M(4* 3^(L-1))), M: number of Cells, L: maximum length of words
+// Space: O(N)
 public class Solution_212 {
     private char[][] board;
     private List<String> result;

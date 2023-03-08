@@ -1,5 +1,7 @@
 import java.util.*;
 
+// Time: O(q * log(N))
+// Space: O(N)
 public class ClosestCity {
     private class City {
         int x;

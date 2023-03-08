@@ -3,6 +3,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+// Time: O(L)
+// Space: O(L)
 public class HuffmanEncoding {
     private class Node {
         private Character c;
