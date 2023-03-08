@@ -16,4 +16,8 @@ public class Solution_342 {
         }
         return false;
     }
+
+    public boolean isPowerOfFour2(int num) {
+        return (num > 0) && ((num & (num - 1)) == 0) && ((num & 0xaaaaaaaa) == 0);
+    }
 }
